@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import EnterTheName from './App'; // but 뒤에있는 './App(.js 생략)' 은 파일 이름.
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <EnterTheName />
   </React.StrictMode>,
   document.getElementById('root')
 );
