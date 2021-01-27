@@ -1,0 +1,36 @@
+<html>
+    <body>
+        <header>
+            <h1>WEB</h1>
+            world wide web!
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="1.html">HTML</a></li>
+                <li><a href="1.html">CSS</a></li>
+                <li><a href="1.html">JavaScript</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h2>HTML</h2>
+            HTML is HyperText Markup Language.
+        </article>
+    </body>
+</html>
+
+<============================================
+react.js를 활용하여 component를 사용한다면?
+코드가 훨씬 간결해지고 정리된 느낌?
+============================================>
+
+<html>
+    <body>
+        <Subject01><Subject01>
+
+        <Subject02><Subject02>
+
+        <Subject03><Subject03>
+    </body>
+</html>
