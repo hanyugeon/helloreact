@@ -27,10 +27,10 @@ react.js를 활용하여 component를 사용한다면?
 
 <html>
     <body>
-        <Subject01><Subject01>
+        <header></header>
 
-        <Subject02><Subject02>
+        <nav></nav>
 
-        <Subject03><Subject03>
+        <article></article>
     </body>
 </html>
