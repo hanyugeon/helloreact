@@ -6,8 +6,8 @@ class Subject extends Component { // Subject라는 Component를 만들겠다.
   render() {
     return (
       <header>
-          <h1>WEB</h1>
-          world wide web!
+          <h1>{this.props.title}</h1>
+          {this.props.sub}
       </header>
     );
   }
@@ -31,8 +31,8 @@ class Content extends Component {
   render() {
     return (
       <article>
-        <h2>HTML</h2>
-        HTML is HyperText Markup Language.
+        <h2>{this.props.title}</h2>
+        {this.props.desc}
       </article>
     );
   }
@@ -42,9 +42,10 @@ class App extends Component { // 유사 JS, JS가 아니다.
   render() {
     return (
       <div className="App">
-        <Subject></Subject>
+        <Subject title="WEB" sub="world wide web~"></Subject>
+        <Subject title="React" sub="For UI!"></Subject>
         <TOC></TOC>
-        <Content></Content>
+        <Content title="HTML" desc="HTML is HyperText Markup Language~~"></Content>
       </div>
     );
   }
